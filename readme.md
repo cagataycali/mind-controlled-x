@@ -17,14 +17,14 @@ Usage
 
 ```javascript
 // First usage. (Needs internet connection.)
-const mind = require('./index')({
+const mind = require('mind-controlled-x')({
   license: 'free',
   clientId: 'xxxxxxxxxxxx',
   clientSecret: 'xxxxxxxxx',
   debit: 1,
 }) // Copy auth token and headset ID and use below (Does not needs internet connection.)
 // --------------- OR ---------------
-const mind = require('./index')({
+const mind = require('mind-controlled-x')({
   headsetId: 'EPOCPLUS-xxxxxxxx',
   authToken: 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
 })

@@ -7,9 +7,7 @@ Installation
 -----------
 
 ```bash
-git clone mind-controlled-x
-cd mind-controlled-x
-npm install
+npm install mind-controlled-x # or # yarn add mind-controlled-x
 ```
 
 Usage
